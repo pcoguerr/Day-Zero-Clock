@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Zero Countdown</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #countdown {
+            font-size: 10vw; /* Adjust size of the countdown dynamically */
+            font-weight: bold;
+        }
+        #message {
+            font-size: 1.5vw;
+            margin-top: 20px;
+            max-width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div id="countdown">
+        <p id="time"></p>
+    </div>
+    <div id="message">
+        <p>Mexico City is at the brink of running out of water, affecting the lives of over 21 million residents.</p>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+</html>
